@@ -6,6 +6,26 @@ Interactive HR Analytics Dashboard built using Microsoft Power BI to analyse wor
 ## Project Objective
 
 To analyse employee attrition and workforce patterns through interactive visualisations, identify trends across departments and job roles, and support data-driven HR planning and employee retention strategies.
+## Dataset
+
+The dataset is a publicly available HR analytics dataset sourced from a YouTube tutorial. The raw file contains **1,480 records and 37 columns**, including:
+
+- **Demographics:** Age, AgeGroup, Gender, MaritalStatus, Education
+- **Job details:** Department, JobRole, JobLevel, BusinessTravel, OverTime
+- **Compensation:** MonthlyIncome, SalarySlab, SalaryHike %
+- **Satisfaction and performance:** JobSatisfaction, EnvironmentSatisfaction, WorkLifeBalance, PerformanceRating
+- **Experience:** TotalExperience (Years), YearsatCompany, YearsSincePromotion
+- **Target:** Attrition (Yes/No)
+
+After cleaning in Power Query, the final dashboard analyses **1,417 employee records**.
+## Data Cleaning (Power Query)
+
+- Removed duplicate employee records
+- Handled missing values
+- Corrected data types
+- Created derived columns such as AgeGroup and SalarySlab
+- Filtered the data down to 1,417 valid records for analysis
+> Dataset source: [Vedakarna]([link to video](https://www.youtube.com/watch?v=QcTeeBrL6EY))
 ## Key Performance Indicators (KPIs)
 
 | KPI | Value |
