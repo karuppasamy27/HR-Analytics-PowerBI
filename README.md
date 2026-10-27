@@ -41,6 +41,8 @@ Power Query for data cleaning and transformation
 
 DAX for calculations and KPIs
 
+Data Modelling
+
 Data visualisation and dashboard design
 
 ## Project Objective
